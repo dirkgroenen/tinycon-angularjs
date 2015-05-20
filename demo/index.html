@@ -14,9 +14,20 @@
         <script type="text/javascript" src="./app.js"></script>
 
         <link rel="icon" href="./favicon.ico">
+
+        <style>
+            body,html{
+                font-family: Arial;
+                font-size: 14px;
+                color: #111;
+            }
+        </style>
     </head>
 
     <body>
+        <a href="https://github.com/dirkgroenen/tinycon-angularjs"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+        
+        <h1>Angular service for Tinycon</h1>
         <p>Use the buttons below to change the number in the favicon</p>
         <p>
             <button ng-click="increase()">Increase</button>
@@ -26,5 +37,6 @@
         <p>
             <input type="text" ng-model="bubblenumber"/>
         </p>
+        <p>More information: <a href="https://github.com/tommoor/tinycon">https://github.com/tommoor/tinycon</a></p>
     </body>
 </html>
