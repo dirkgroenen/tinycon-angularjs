@@ -4,8 +4,12 @@ angular.module("angularTinyConDemo", [
 
 .config(function Appconfig(anTinyconProvider){
     anTinyconProvider.setOptions({
-        colour: '#000',
-        background: '#fff',
+        width: 7,
+        height: 9,
+        font: '10px arial',
+        colour: '#ffffff',
+        background: '#549A2F',
+        fallback: true
     });
 })
 
