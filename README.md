@@ -16,7 +16,7 @@ bower install tinycon-angularjs--save-dev
 
 Include angular-tinycon.min.js in your application. The minified version already includes a version of Tincon so there is no need to include that file too.
 ```html
-<script src="components/tinycon-angular/dist/angular-tinycon.min.js"></script>
+<script src="components/tinycon-angularjs/dist/angular-tinycon.min.js"></script>
 ```
 
 Add the module ```angularTinycon``` as a dependency to your application module.
