@@ -10,7 +10,17 @@ angular.module("angularTinyConDemo", [
 })
 
 .controller("AppController", function AppController($scope, anTinycon){
+    var number = 0;
 
+    $scope.increase = function(){
+        number++;
 
-    anTinycon.setBubble(2);
+        anTinycon.setBubble(number);
+    };
+
+    $scope.decrease = function(){
+        number--;
+
+        anTinycon.setBubble(number);
+    };
 });
