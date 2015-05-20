@@ -1,0 +1,3 @@
+[submodule "tinycon"]
+	path = tinycon
+	url = git@github.com:tommoor/tinycon.git
