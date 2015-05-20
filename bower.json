@@ -1,0 +1,13 @@
+{
+  "name": "angular-tinycon",
+  "repo": "dirkgroenen/angular-tinycon",
+  "description": "TinyCon module for AngularJS.",
+  "keywords": [
+    "favicon",
+    "tinycon",
+    "angular",
+    "notification"
+  ],
+  "version": "1.0.0",
+  "main": "dist/angular-tinycon.min.js"
+}

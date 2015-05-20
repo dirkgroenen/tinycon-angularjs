@@ -1,0 +1,20 @@
+{
+  "name": "angular-tinycon",
+  "author": "Dirk Groenen",
+  "version": "1.0.0",
+  "homepage": "http://dirkgroenen.github.io/tinycon-angularjs/demo/",
+  "description": "TinyCon module for AngularJS.",
+  "repository": "https://github.com/dirkgroenen/tinycon-angularjs",
+  "licenses": {
+    "type": "GNU v3",
+    "url": "https://github.com/dirkgroenen/tinycon-angularjs/blob/master/LICENSE.md"
+  },
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-uglify": "^0.7.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
