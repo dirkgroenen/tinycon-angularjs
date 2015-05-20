@@ -31,6 +31,7 @@ app.config(function(anTinyconProvider){
     });
 });
 ```
+Take a look at [Tinycon's README](https://github.com/tommoor/tinycon#options) for all options
 
 To use the API methods you have to call the ```anTinycon``` service in (for example) your controller.
 
