@@ -4,8 +4,8 @@ angular.module("angularTinyConDemo", [
 
 .config(function Appconfig(anTinyconProvider){
     anTinyconProvider.setOptions({
-        a: 'b',
-        c: 'd'
+        colour: '#000',
+        background: '#fff',
     });
 })
 
