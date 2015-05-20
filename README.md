@@ -72,4 +72,4 @@ app.controller('MainCtrl', function($scope, anTinycon) {
 Tinycon will automatically update the bubble's value when your key's value changes.
 
 ## Credits
-All credits for Tinycon go to [tommoor's](https://github.com/tommoor).
+All credits for Tinycon go to [tommoor](https://github.com/tommoor).
