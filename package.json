@@ -1,7 +1,7 @@
 {
   "name": "angular-tinycon",
   "author": "Dirk Groenen",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "homepage": "http://dirkgroenen.github.io/tinycon-angularjs/demo/",
   "description": "TinyCon module for AngularJS.",
   "repository": "https://github.com/dirkgroenen/tinycon-angularjs",
