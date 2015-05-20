@@ -22,13 +22,13 @@
          * @return {object}
          */
         this.$get = function(){
-            return new anTinycon();
+            return new AnTinycon();
         };
 
         /**
          * Constructor for anTinycon with the public APIs
          */
-        function anTinycon(){}
+        function AnTinycon(){}
 
         /**
          * Set the bubble with the given number 
@@ -36,7 +36,7 @@
          * @param {int} number
          * @return {void}
          */
-        anTinycon.prototype.setBubble = function(number) {
+        AnTinycon.prototype.setBubble = function(number) {
             Tinycon.setBubble(number);
         };
 
@@ -47,7 +47,7 @@
          * @param  {string} key
          * @return {void}
          */
-        anTinycon.prototype.bind = function(scope, key){
+        AnTinycon.prototype.bind = function(scope, key){
             var that = this;
 
             scope.$watch(key, function(newValue){
