@@ -47,7 +47,7 @@
          * @param  {string} key
          * @return {void}
          */
-        anTinycon.prototype.sync = function(scope, key){
+        anTinycon.prototype.bind = function(scope, key){
             var that = this;
 
             scope.$watch(key, function(newValue){

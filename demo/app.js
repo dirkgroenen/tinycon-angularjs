@@ -12,6 +12,11 @@ angular.module("angularTinyConDemo", [
 .controller("AppController", function AppController($scope, anTinycon){
     var number = 0;
 
+    $scope.bubblenumber = 0;
+
+    // Bind BubbleNumber
+    anTinycon.bind($scope, "bubblenumber");
+
     $scope.increase = function(){
         number++;
 
