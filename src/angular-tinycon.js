@@ -40,6 +40,21 @@
             Tinycon.setBubble(number);
         };
 
+        /**
+         * Sync a scope key with the bubble
+         * 
+         * @param  {$rootScope|$scope} scope
+         * @param  {string} key
+         * @return {void}
+         */
+        anTinycon.prototype.sync = function(scope, key){
+            var that = this;
+
+            scope.$watch(key, function(newValue){
+                that.setBubble(newValue);
+            });
+        };
+
     });
 
 }(angular, Tinycon));
