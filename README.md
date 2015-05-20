@@ -8,6 +8,12 @@ From the TinyCon README:
 >A small library for manipulating the favicon, in particular adding alert bubbles and changing images. Tinycon gracefully falls back to a number in title approach for browers that don't support canvas or dynamic favicons.
 
 ## Documentation 
+
+Install angular-tinycon via Bower.
+```
+bower install tinycon-angularjs--save-dev
+```
+
 Include angular-tinycon.min.js in your application. The minified version already includes a version of Tincon so there is no need to include that file too.
 ```html
 <script src="components/tinycon-angular/dist/angular-tinycon.min.js"></script>

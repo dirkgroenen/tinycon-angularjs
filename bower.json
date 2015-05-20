@@ -9,5 +9,10 @@
     "notification"
   ],
   "version": "1.0.0",
-  "main": "dist/angular-tinycon.min.js"
+  "main": "dist/angular-tinycon.min.js",
+  "ignore": [
+    "src",
+    "tinycon",
+    "demo"
+  ]
 }
