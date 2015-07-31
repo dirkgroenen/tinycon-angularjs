@@ -11,7 +11,7 @@ From the TinyCon README:
 
 Install angular-tinycon via Bower.
 ```
-bower install tinycon-angularjs--save-dev
+bower install tinycon-angularjs --save-dev
 ```
 
 Include angular-tinycon.min.js in your application. The minified version already includes a version of Tincon so there is no need to include that file too.
