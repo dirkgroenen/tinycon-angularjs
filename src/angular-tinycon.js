@@ -41,6 +41,15 @@
         };
 
         /**
+         * Reset the favicon
+         * 
+         * @return {void}
+         */
+        AnTinycon.prototype.reset = function() {
+            Tinycon.reset();
+        };
+
+        /**
          * Sync a scope key with the bubble
          * 
          * @param  {$rootScope|$scope} scope

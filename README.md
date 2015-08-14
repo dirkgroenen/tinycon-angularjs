@@ -48,6 +48,18 @@ app.controller('MainCtrl', function($scope, anTinycon) {
 });
 ```
 
+###reset
+Reset the favicon to its original state.
+
+**Usage:** ```anTinycon.reset()```
+
+```javascript
+app.controller('MainCtrl', function($scope, anTinycon) {
+  anTinycon.reset();
+});
+```
+
+
 ###bind
 Bind a $scope key to the bubble.
 

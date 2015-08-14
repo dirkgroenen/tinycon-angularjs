@@ -8,6 +8,6 @@
     "angular",
     "notification"
   ],
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "dist/angular-tinycon.min.js"
 }
