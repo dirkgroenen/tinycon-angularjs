@@ -1,6 +1,6 @@
 # Tinycon Angularjs
 
-An Angular service wrapper for tommoor's TinyCon](https://github.com/tommoor/tinycon) library.
+An Angular service wrapper for [tommoor's TinyCon](https://github.com/tommoor/tinycon) library.
 
 From the TinyCon README:
 
