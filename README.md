@@ -1,8 +1,7 @@
 # Tinycon Angularjs
-This nothing more than an Angular service for [tommoor's TinyCon](https://github.com/tommoor/tinycon), who obviously deserves all credits. 
 
+An Angular service wrapper for tommoor's TinyCon](https://github.com/tommoor/tinycon) library.
 
-## TinyCon
 From the TinyCon README:
 
 >A small library for manipulating the favicon, in particular adding alert bubbles and changing images. Tinycon gracefully falls back to a number in title approach for browers that don't support canvas or dynamic favicons.
