@@ -10,7 +10,7 @@
     "url": "https://github.com/dirkgroenen/tinycon-angularjs/blob/master/LICENSE.md"
   },
   "dependencies": {
-   tinycon2": "0.6.4"
+    "tinycon2": "0.6.4"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
