@@ -1,6 +1,9 @@
 {
   "name": "angular-tinycon",
-  "repo": "dirkgroenen/angular-tinycon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dirkgroenen/angular-tinycon.git"
+  },
   "description": "TinyCon module for AngularJS.",
   "keywords": [
     "favicon",
@@ -8,11 +11,18 @@
     "angular",
     "notification"
   ],
-  "version": "1.1.0",
-  "main": "dist/angular-tinycon.min.js",
+  "main": "src/angular-tinycon.js",
+  "dependencies": {
+    "angular": "1.x",
+    "tinycon": "~0.6.5"
+  },
   "ignore": [
-    "src",
     "tinycon",
-    "demo"
+    "demo",
+    ".gitmodules",
+    ".gitignore",
+    "*.md",
+    "Gruntfile.js",
+    "package.json"
   ]
 }
